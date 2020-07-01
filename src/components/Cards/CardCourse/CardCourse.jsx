@@ -3,7 +3,7 @@ import React from "react";
 function CardCourse(props) {
     return (
         <div>
-            <div className="card flex-row flex-wrap">
+            <div className="card">
                 <div className="card-header border-0">
                     <iframe
                         width="180"

@@ -27,6 +27,7 @@ function Profile() {
 
     return (
         <>
+            <h2>My Course</h2>
             <div className="course">{cards}</div>
         </>
     );

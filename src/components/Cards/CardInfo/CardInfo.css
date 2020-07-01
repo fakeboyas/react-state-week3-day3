@@ -1,4 +1,31 @@
 .card-header img {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.card-header {
+    background: none;
+}
+
+.card-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 500px;
+    border: black 1px solid;
+    margin-bottom: 30px;
+    border-radius: 5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media only screen and (max-width: 500px) {
+    .card-info {
+        flex-direction: column;
+        width: 300px;
+    }
 }

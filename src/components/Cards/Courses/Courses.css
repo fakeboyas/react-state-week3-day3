@@ -1,4 +1,18 @@
 .course {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    border: 0px;
+    margin-bottom: 40px;
+    border: solid black 1px;
+}
+
+@media only screen and (max-width: 500px) {
+    .course {
+        flex-direction: column;
+    }
 }
